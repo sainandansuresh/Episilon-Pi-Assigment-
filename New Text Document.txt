@@ -1,0 +1,51 @@
+#First program:
+length = int(input())
+breath = int(input())
+if length==breath:
+    print('Yes')
+else:
+    print('No')
+    
+
+#Second program:
+def bonus(Salary):
+    emp = salary*0.05
+    print('Bonus is', round(emp))
+    
+
+salary = int(input())
+yos = int(input())
+
+if yos>5:
+     bonus(salary)
+else:
+     print('No Bonus')
+
+#Third program:
+def multiples(n):
+    i =1
+    while i<11:
+        print(n*i)
+        i = i+1
+
+n = int(input())
+multiples(n) #function call
+
+#Fourth program:
+def reverse_of_string(s):
+    s =''.join(reversed(str))
+    print(s)
+
+str = input()
+reverse_of_string(str) #function call
+
+#Fifth program:
+def order(name,age):
+    print(name,age)
+    
+name = str(input())
+age = int(input())
+order(name,age) #function call
+
+
+
